@@ -1,0 +1,14 @@
+2026-01-01 15:48:00 - ArithmeticApp - DEBUG - Adding 10+15,result
+2026-01-01 15:48:00 - ArithmeticApp - DEBUG - subtract 10-5,result
+2026-01-01 15:50:18 - ArithmeticApp - DEBUG - Adding 10+15,result
+2026-01-01 15:50:18 - ArithmeticApp - DEBUG - subtract 10-5,result
+2026-01-01 15:52:36 - ArithmeticApp - DEBUG - Adding 10 + 15 = 25
+2026-01-01 15:52:36 - ArithmeticApp - DEBUG - Subtracting 10 - 5 = 5
+2026-01-01 15:52:36 - ArithmeticApp - DEBUG - Multiplying 2 x 2 = 4
+2026-01-01 15:52:36 - ArithmeticApp - DEBUG - Dividing 10 / 2 = 5.0
+2026-01-01 15:52:36 - ArithmeticApp - ERROR - Division by zero error
+Traceback (most recent call last):
+  File "C:\Users\ASUS-1\Desktop\Ai\Loggers In python\example\app.py", line 40, in divide
+    result = a / b
+             ~~^~~
+ZeroDivisionError: division by zero
